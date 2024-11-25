@@ -1,0 +1,37 @@
+body{background-color: #D2FFC9;}
+
+.cor1 { background-color: red; }
+.cor2 { background-color: blue; }
+.cor3 { background-color: green; }
+
+h1{
+    margin-top: 10px;
+    font-family: Cascadia Code;
+    color: #AB92F3;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 80px; /* Espaçamento entre as colunas */
+}
+
+.respostaBotao {
+    width: 90%; /* Define a largura dos botões */
+}
+
+.imagem img {
+    max-width: 100%; /* Garante que as imagens se ajustem ao tamanho do botão */
+    height: auto;
+    margin-bottom: 90px; /* Adiciona espaçamento abaixo de cada imagem */
+}
+
+      

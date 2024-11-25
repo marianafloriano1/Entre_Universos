@@ -1,0 +1,46 @@
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 3rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav__menu {
+    position: static;
+    left: 0;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    padding-top: 0;
+  }
+
+  .nav__toggle {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .send__title {
+    font-size: 1.0rem;
+  }
+
+  .send__description {
+    font-size: 0.9rem;
+  }
+
+  .send__content {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .send__container {
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+/* Outros estilos responsivos... */

@@ -1,0 +1,104 @@
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    transition: margin-left 0.3s ease; 
+}
+
+.navbar {
+    position: fixed;
+    left: -180px; 
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    width: 180px; /* A largura total da barra de navegação */
+    transition: left 0.3s linear; /* Transição suave para mover a navbar */
+    text-decoration: none;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 30px; 
+    margin-top: 15px;
+}
+
+.navbar.open {
+    left: 0; /* Mova a barra de navegação para dentro da tela */
+}
+
+.navbar-nav {
+    display: flex;
+    height: 100%;
+}
+
+.nav-item {
+    width: 100%;
+    height: 150px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    transition: var(--transition-speed);
+    color: #fff;
+}
+
+.nav-link i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.logo {
+    text-decoration: none; 
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.logo-img {
+    width: 42px;
+    transition: transform 0.3s ease; 
+    margin-right: 15px; 
+}
+
+.logo, 
+.logo:link, 
+.logo:visited, 
+.logo:hover, 
+.logo:active {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.link-texte {
+    font-size: 1.5rem;
+    color: #fff;
+    transition: transform 0.3s ease; 
+}
+
+.logo:hover .logo-img,
+.logo:hover .link-texte {
+    transform: scale(1.4); 
+}
+
+.link-text {
+    display: none;
+    margin-left: 10px;
+}
+
+.nav-item:hover .nav-link {
+    background-color: #fff; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px; /* Adiciona um leve arredondamento aos cantos */
+    width: 119px;
+    height: 45px;
+    padding-left: 5px;
+}
+
+.nav-item:hover .nav-link .bi-journal-check,
+.nav-item:hover .nav-link .bi-chat-left-text,
+.nav-item:hover .nav-link .bi-person,
+.nav-item:hover .nav-link .bi-book,
+.nav-item:hover .nav-link .bi-box-arrow-left,
+.nav-item:hover .nav-link .link-text {
+    color: black; /* Cor dos ícones e texto ao passar o mouse */
+}

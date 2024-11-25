@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+
+  nav{
+  position: fixed; 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  background: #D2C3F3;
+  width: 90px;
+  overflow: hidden;
+  transition: width 0.5s linear;
+  text-decoration: none;
+  }
+
+
+
+
+  .logo span{
+    font-weight: normal;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #565656;
+  }
+  
+  a{
+   position: relative;
+   color: #565656;
+   font-size: 14px;
+   display: table;
+   width: 300px;
+   text-decoration: none;
+   padding: 5px;
+  }
+  
+ fas{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    
+ }
+
+
+ .nav-item{
+    position: static;
+    top: 10px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #565656;
+    font-size: 18px;
+    text-align: left;
+
+    
+ }
+ 
+ a:hover{
+    text-decoration: none;
+    background-color: #92a1bd;
+ }
+
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+
+  
+  .titulo{
+    font-family: Cascadia Code;
+    color: #AB92F3;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+  .search-container {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente os elementos */
+  }
+  
+  
+  .search-input {
+  padding: 10px;
+  border: 1px;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  width: 900px;
+  background-color: #BEE1AE;
+  margin-top: 20px;
+  
+  }
+  
+  .search-button {
+  padding: 10px 15px;
+  color: #F6A4E4;
+  border: 1px;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+  outline: none;
+  background-color: #BEE1AE;
+  margin-top: 20px;
+  
+  }
+
+
+      
+  
+  
